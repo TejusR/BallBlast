@@ -1,0 +1,11 @@
+body{
+    min-width: 600px;
+    min-height: 800px;
+}
+div{
+    position: relative;
+}
+img{
+    visibility: hidden;
+
+}
