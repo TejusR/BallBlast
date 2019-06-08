@@ -1,10 +1,39 @@
+@font-face{
+    font-family: "Righteous";
+    src: "https://fonts.googleapis.com/css?family=Righteous&display=swap";
+
+}
+@font-face{
+    font-family: "Gorditas";
+    src : "https://fonts.googleapis.com/css?family=Gorditas&display=swap";
+}
+@font-face{
+    font-family: "Monoton";
+    src :"https://fonts.googleapis.com/css?family=Monoton&display=swap";
+}
+@font-face{
+    font-family: "Knewave";
+    src : "https://fonts.googleapis.com/css?family=Knewave&display=swap";
+} 
+@font-face{
+    font-family: "Roboto";
+    src : "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+} 
+html{
+    min-height: 100%;
+}
 body{
+    width : 100%;
     min-width: 600px;
-    min-height: 800px;
+    min-height: 100%;
 }
 div{
-    position: relative;
+    position: absolute;
+    left : 50%;
+    transform: translate(-50%,0);
+    top :80px;
 }
+
 img{
     visibility: hidden;
 

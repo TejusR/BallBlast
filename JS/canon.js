@@ -8,12 +8,12 @@ class Canon{
 
     moveLeft(){
         if(this.pos.x>0)
-        this.pos.x-=8;
+        this.pos.x-=15;
     }
 
     moveRight(){
         if(this.pos.x<600)
-        this.pos.x+=8;
+        this.pos.x+=15;
     }
 
 }
