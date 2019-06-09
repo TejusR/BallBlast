@@ -92,7 +92,6 @@
    thresh = 12;
    bullets = []
    stones = [new Stone(0,Math.floor((Math.random()*400)),2,Math.floor((Math.random()*100)+30),true)]
-   initGame();
    if(score>HighScore){
      HighScore = score;
      localStorage.setItem(HighTag,JSON.stringify(score))
