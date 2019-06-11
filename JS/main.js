@@ -196,11 +196,9 @@
         const stone = stones[key1];
         stone.Trackmotion();
         if(isClassic){
-          if(stone.pos_y > 620){
-            console.log("stone pos low");
-            console.log(stone.pos_x>(canon.pos.x+60));
-              console.log((stone.pos_x+Math.floor(stone.st_strength/2))<canon.pos.x);
-            if(!(stone.pos_x>(canon.pos.x+60) || (stone.pos_x+Math.floor(stone.st_strength/2))<canon.pos.x)){
+          if(stone.pos_y > 630){
+
+            if(!(stone.pos_x>(canon.pos.x+30) || (stone.pos_x+stone.st_strength)<canon.pos.x)){
               
               
               console.log("x is matching");
